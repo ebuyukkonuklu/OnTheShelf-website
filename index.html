@@ -1,26 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>On the Shelf</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            max-width: 800px;
-            margin: auto;
-            background-color: #f9f9f9;
-        }
-        h1 {
-            color: #333;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>On the Shelf</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background-color: #f9f9f9;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .team {
+      margin-top: 30px;
+      padding: 15px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .team ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    .team li {
+      margin: 5px 0;
+      font-size: 16px;
+      font-weight: bold;
+      color: #333;
+    }
+    .pdf-section {
+      margin-top: 30px;
+    }
+    .pdf-section iframe {
+      width: 100%;
+      height: 500px;
+      border: none;
+      margin-bottom: 20px;
+    }
+    .pdf-links {
+      margin-top: 10px;
+    }
+    .pdf-links a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    .pdf-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-    <h1>On the Shelf</h1>
-    <p>
-        On the Shelf is a mobile app aiming transforming how we manage groceries and reduce disorganization in the kitchen. By intelligently tracking household items and learning from user habits, the app helps prevent food waste by making smarter consumption forecasts and offering practical meal suggestions based on available ingredients. With features like automatic shopping lists and personalized insights into spending and usage patterns, On the Shelf empowers users to reduce overbuying and waste. The app is designed to provide daily grocery management, creating a more organized, eco-friendly, and collaborative experience for individuals and families.
-    </p>
+<h1>On the Shelf</h1>
+<p>
+  On the Shelf is a mobile app aimed at transforming how we manage groceries and reduce inefficiencies in the kitchen.
+  By intelligently tracking household items and learning from user habits, the app helps prevent food waste by making smarter
+  consumption forecasts and offering practical meal suggestions based on available ingredients. With features like automatic
+  shopping lists and personalized insights into spending and usage patterns, On the Shelf empowers users to make informed
+  decisions, reducing overbuying and waste. The app is designed to streamline daily grocery management, creating a more
+  organized, waste-conscious, and collaborative experience for individuals and families alike.
+</p>
+
+<div class="team">
+  <h2>Team Members</h2>
+  <ul>
+    <li>Emirhan Büyükkonuklu</li>
+    <li>Gülbera Tekin</li>
+    <li>Defne Gürbüz</li>
+    <li>Ümmügülsüm Sümer</li>
+    <li>İrem Hafızoğlu</li>
+  </ul>
+</div>
+
+<div class="pdf-section">
+  <h2>Additional Resources</h2>
+
+  <iframe src="Project_Specification_Document.pdf" title="Project Specification Document"></iframe>
+  <iframe src="T2420_Analysis_and_Requirements_Report.docx.pdf" title="Analysis and Requirements Report"></iframe>
+
+  <div class="pdf-links">
+    <p><a href="Project_Specification_Document.pdf" target="_blank">Download Project Specification Document</a></p>
+    <p><a href="T2420_Analysis_and_Requirements_Report.docx.pdf" target="_blank">Download Analysis and Requirements Report</a></p>
+  </div>
+</div>
 </body>
 </html>
